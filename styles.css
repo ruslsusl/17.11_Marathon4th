@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #111;
+  background-color: pink;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,18 +14,16 @@ body {
 
 
 .container {
-  
+  background-image: url(https://images.unsplash.com/photo-1623238778426-1ff810ff576b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+  background-size: cover; 
   display:flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   max-width: 400px;
+  
 }
-.container img {
 
-  height: 100%;
-  width: auto; 
-}
 .square {
   width: 16px;
   height: 16px;
